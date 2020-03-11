@@ -1,0 +1,23 @@
+* {
+    
+    padding: 0;
+    margin: 0;
+    background-color: azure;
+}
+
+body {
+    text-align: center;
+    line-height: 3em;
+}
+
+h1 {
+    padding: 30px;
+}
+
+.word {
+    letter-spacing: 3vw;
+}
+
+input {
+    padding: 3px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Hangman Game</title>
+    <meta name="Hangman" content="width=device-width, initial-scale=1.0">
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/hangman.js" defer></script>
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="css/hangman.css">
+</head>
+<body>
+    <h1>Hangman</h1>
+        <p>Enter a guess to begin.</p>
+        <form action="#" method="GET">
+            <label for="guess">
+                Enter a guess:
+                <input type="text" name="guess" maxlength="1">
+            </label>
+            <input type="submit" value="Guess!">
+        </form>
+        <dl>
+            <dt>Word</dt>
+            <dd class="word"></dd>
+            <dt>Chances</dt>
+            <dd class="chances"></dd>
+            <dt>Previous Guesses</dt>
+            <dd>
+                <ul class="previous-guesses"></ul>
+            </dd>
+        </dl>
+</body>
+</html>
